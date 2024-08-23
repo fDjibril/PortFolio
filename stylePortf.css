@@ -1,0 +1,259 @@
+*{
+    margin: 0;padding: 0;
+}
+
+/* body {
+    background-color: #212121;
+} */
+
+/* modelisation de la photo de profil, nom et statut */
+.phtProf {
+    width: 330px;
+    height: 350px;
+    border-radius: 50%;
+    /* border: 3px solid white; */
+    position: relative;
+    margin-left: 37%;
+    margin-top: 2%;
+    /* transition: 2s; */
+}
+/* .phtProf:hover {
+    box-shadow: 5px 5px 30px 3px white;
+    transition: 1s;
+} */
+.nome {
+    padding-top: 19px;
+    text-align: center;
+    font-size: 55px;
+}
+.mp {
+    padding-top: 13px;
+    text-align: center;
+    font-size: 50px;
+    color: #999999;
+}
+
+/* modelisation des bouton dirigeable a divers profil */
+.btnDeProf {
+    text-align: center;
+}
+.btnDeProf button {
+    width: 200px;
+    height: 70px;
+    font-size: 19px;
+    margin: 23px;
+    border-radius: 30px 30px;
+    border: 1px solid black;
+    background-color: white;
+}
+.btnDeProf button:nth-child(3) {
+    background-color: #212121;
+    color: #ffff;
+}
+.btnDeProf button:hover {
+    background-color: black;
+    color: white;
+}
+
+/* on pass maintenant au chose serieuse :) */
+/* nv1 */
+.parcourSco {
+    justify-content: center;
+    margin-top: 30px;
+    align-items: center;
+    gap: 130px;
+    display: flex;
+}
+.h2Eco {
+    margin-top: 60px;
+    text-align: center;
+    font-size: 55px;
+}
+.parcourSco .ecol img {
+    height: 40px;
+    width: 40px;
+}
+.parcourSco .ecol {
+    text-align: center;
+    border: 1px solid black;
+    width: 250px;
+    height: 150px;
+    padding-top: 40px;
+    border-radius: 27px 27px;
+}
+.parcourSco .ecol h4 {
+    padding-top: 20px;
+    font-size: 25px;
+}
+
+
+/* nv2 */
+.parcourExp {
+    display: flex;
+    gap: 150px;
+    justify-content: center;
+    margin-top: 50px;
+    align-items: center;
+}
+
+.h2Expr {
+    margin-top: 60px;
+    text-align: center;
+    font-size: 55px;
+}
+.devComp {
+    overflow: hidden;
+    border: 1px solid black;
+    width: 400px;
+    height: 350px;
+    border-radius: 25px 25px;
+}
+.devComp .devP {
+    margin-top: 25px;
+    font-size: 35px;
+    text-align: center;
+}
+.devComp .EXP img {
+    width: 35px;
+    height: 35px;
+}
+.devComp .EXP {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding-top: 20px;
+    margin-left: 30px;
+}
+.ppp {
+    margin-left: 100px;
+}
+
+.drawComp .cartEXP img {
+    width: 35px;
+    height: 35px;
+}
+.drawComp .cartEXP {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding-top: 20px;
+    margin-left: 30px;
+}
+.drawComp {
+    overflow: hidden;
+    border: 1px solid black;
+    width: 400px;
+    height: 350px;
+    border-radius: 25px 25px;
+}
+.drawComp .devP {
+    margin-top: 25px;
+    font-size: 35px;
+    text-align: center;
+}
+.drawComp .EXP img {
+    width: 35px;
+    height: 35px;
+}
+.pppp {
+    margin-left: 100px;
+}
+
+
+/* nv3 */
+.projsArt {
+    margin-top: 60px;
+    text-align: center;
+    font-size: 55px;
+}
+.vste {
+    padding-top: 13px;
+    text-align: center;
+    font-size: 29px;
+    color: #999999;
+}
+
+/* on attaque les image a cadrer :) */
+.mesArts {
+    display: flex;
+    gap: 150px;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+}
+.mesArts .cardImgs {
+    overflow: hidden;
+    border: 1px solid black;
+    width: 400px;
+    height: 550px;
+    text-align: center;
+    padding: 19px;
+    border-radius: 35px;
+}
+.mesArts .cardImgs img{
+    width: 350px;
+    height: 430px;
+    border-radius: 35px;
+}
+
+
+/* nv4 */
+.projsWeb {
+    margin-top: 60px;
+    text-align: center;
+    font-size: 55px;
+}
+
+
+
+
+/* nv5 */
+.remcnt {
+    margin-top: 60px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.aumlx {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+.contcts {
+    overflow: hidden;
+    margin-top: 60px;
+    border: 1px solid black;
+    width: 800px;
+    height: 120px;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 35px;
+}
+.contcts a {
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+}
+.contcts a:hover {
+    text-decoration: underline;
+    color: #838383;
+}
+.aumlx .contcts .bdgs {
+    width: 35px;
+    height: 35px;
+    margin-right: -35px;
+}
+
+.phrs2f {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 150px;
+}
+.phrs2f:hover {
+    text-decoration: underline;
+    color: #838383;
+}
