@@ -8,7 +8,7 @@ document.getElementById('cvButton').addEventListener('click', function() {
 
 document.getElementById('linkedinButton').addEventListener('click', function() {
     // redirige vers my linkedin
-    window.open('https://www.youtube.com/results?search_query=mrbeast', '_blank'); //reste a mettre le lien vers ma page linkedin :)
+    window.open('https://www.linkedin.com/', '_blank'); //reste a mettre le lien vers ma page linkedin :)
 } );
 
 document.getElementById('instagramButton').addEventListener('click', function() {
@@ -23,7 +23,7 @@ document.getElementById('instaaa').addEventListener('click', function() {
     window.open('https://www.instagram.com/fougni_guin.djibril/', '_blank');
 });
 document.getElementById('linked').addEventListener('click', function() {
-    window.open('https://www.youtube.com/results?search_query=mrbeast', '_blank'); //reste a mettre le lien vers ma page linkedin :)
+    window.open('https://www.linkedin.com/', '_blank'); //reste a mettre le lien vers ma page linkedin :)
 } );
 
 // envoie de l'email
