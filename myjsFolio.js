@@ -3,7 +3,7 @@
 
 document.getElementById('cvButton').addEventListener('click', function() {
     // redirige vers my cv
-    window.open('CvDjibril.pdf', '_blank'); //Cette fonction ouvre une nouvelle fenêtre ou un nouvel onglet avec l'URL spécifiée. Le paramètre '_blank' permet d'ouvrir le lien dans un nouvel onglet pour que la page actuelle reste ouverte.
+    window.open('CulumVitae711.pdf', '_blank'); //Cette fonction ouvre une nouvelle fenêtre ou un nouvel onglet avec l'URL spécifiée. Le paramètre '_blank' permet d'ouvrir le lien dans un nouvel onglet pour que la page actuelle reste ouverte.
 } );
 
 document.getElementById('linkedinButton').addEventListener('click', function() {
